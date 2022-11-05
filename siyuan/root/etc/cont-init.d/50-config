@@ -1,0 +1,9 @@
+#!/usr/bin/with-contenv bash
+
+# create workspace
+mkdir -p /siyuan/workspace/
+# permissions
+echo "Setting permissions"
+chown -R abc:abc \
+	/opt/siyuan/ \
+	/siyuan/workspace/

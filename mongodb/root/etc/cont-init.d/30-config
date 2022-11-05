@@ -1,0 +1,6 @@
+#!/usr/bin/with-contenv bash
+
+mkdir -p /config/{data,log}
+
+chown abc:abc /config/data
+chown abc:abc /config/log
